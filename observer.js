@@ -77,11 +77,13 @@ if(window.matchMedia("(min-width: 640px)").matches) {
     }
     
     
+   
     const lifeOptions = {
         root: null, //it is the viewport
-        threshold: .5,
-        rootMargin: '0px' // '-150px 0px 200px 0px' it needs to have px or % 
+        threshold: 0.5,
+        rootMargin: '0px 0px -300px 0px' // '-150px 0px 200px 0px' it needs to have px or % 
     }
+ 
  
  
 
