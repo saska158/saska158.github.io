@@ -43,6 +43,12 @@ a, button, .mail {
     color: hotpink;
 }
 
+button:active,
+.mail:active,
+a:active {
+    color: #d4d4d3;  
+}
+
 a, button, .mail, h2, .intro {
     font-style: italic;
     font-weight: 300;
@@ -181,15 +187,7 @@ main {
     align-self: center;
     padding: 3em 0 .5em;
     margin-bottom: .5em;
-    transition: all 1s;
 }
-
-.about-me-btn:active,
-.mail:active,
-a:active {
-    color: #d4d4d3;  
-}
-
 
 .about-joke,
 .mail-tooltip {
