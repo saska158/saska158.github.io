@@ -75,6 +75,14 @@ if(window.matchMedia("(min-width: 640px)").matches) {
         threshold: .7,
         rootMargin: '0px' // '-150px 0px 200px 0px' it needs to have px or % 
     }
+    
+    
+    const lifeOptions = {
+        root: null, //it is the viewport
+        threshold: .5,
+        rootMargin: '0px' // '-150px 0px 200px 0px' it needs to have px or % 
+    }
+ 
  
 
     const aboutObserver = new IntersectionObserver(function(entries, observer) {
@@ -100,7 +108,7 @@ if(window.matchMedia("(min-width: 640px)").matches) {
             lifeHeadline.style.opacity = 1
             
         })
-    }, options)
+    }, lifeOptions)
     
     lifeObserver.observe(life)
     
