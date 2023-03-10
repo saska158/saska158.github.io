@@ -178,6 +178,7 @@ main {
 .about-container {
     display: flex;
     flex-direction: column;
+    opacity: 0;
 }
 
 
@@ -361,6 +362,10 @@ main {
 .contact {
     background: url('img/Top-Right.svg') no-repeat;
     background-size: cover;
+}
+
+.contact-container {
+    opacity: 0;
 }
 
 .contact-container .section-text {
