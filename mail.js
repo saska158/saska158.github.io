@@ -1,5 +1,4 @@
 const mailTooltip = document.querySelector(".mail-tooltip")
-const mail = document.querySelector('.mail')
 
 mail.addEventListener("click", () => {
     navigator.clipboard.writeText("mikic.saska@gmail.com")
