@@ -145,7 +145,7 @@ main {
     display: flex;
     flex-direction: column;
     opacity: 0;
-    transform: translateY(-10px);
+    transform: translateY(10px);
     transition: opacity .7s, transform .5s;
 }
 
