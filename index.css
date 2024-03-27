@@ -16,7 +16,6 @@ body {
     font-size: 1rem;
     background-color: #fcf3d9;
     color: #30302f;
-    overflow-y: hidden;
 }
 
 img {
@@ -400,6 +399,10 @@ main {
 
 
 @media (min-width: 640px) {
+
+body {
+    overflow-y: hidden;
+}    
  
 h2 {
     font-size: 5rem;
